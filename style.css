@@ -1,4 +1,35 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+* {
+  padding: 0;
+  margin: 0;
 }
+
+.header {
+  margin-left: 250px;
+}
+.list {
+  display: grid;
+  grid-template-columns: 13% 13% 20% 13% 13%;
+  grid-gap: 12px;
+  justify-content: center;
+}
+.div {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+p {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.score {
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+
+}
+.footer {
+  margin-left: 20px;
+  font-size: 18px;
+  padding: 200px;
+  }
